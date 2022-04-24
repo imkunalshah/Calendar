@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="remove_event">Remove Event</string>
+    <string name="details">Details</string>
+    <string name="events">Events</string>
+    <string name="time">Time</string>
+    <string name="location">Location</string>
+    <string name="location_optional">Location (optional)</string>
+    <string name="create_event">Create Event</string>
+    <string name="title">Title</string>
+    <string name="details_optional">Details (optional)</string>
+    <string name="save_event">Save Event</string>
+    <string name="date">Date</string>
+    <string name="sat">SAT</string>
+    <string name="fri">FRI</string>
+    <string name="thu">THU</string>
+    <string name="wed">WED</string>
+    <string name="tue">TUE</string>
+    <string name="mon">MON</string>
+    <string name="sun">SUN</string>
+    <string name="no_events_added">No Events Added</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="do_you_want_to_quit_app">Do you want to quit app?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+</resources>

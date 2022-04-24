@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/currentDateLayout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="2dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/purple_primary"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/currentDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/currentDateLayoutInactive"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="2dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/purple_secondary"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/currentDateInactive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/normalDateLayout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="2dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/normalDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

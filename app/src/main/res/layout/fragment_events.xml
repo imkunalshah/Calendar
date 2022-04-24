@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/emptyListOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/no_events_added"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/eventListRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
